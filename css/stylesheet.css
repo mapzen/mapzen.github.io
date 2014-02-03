@@ -58,7 +58,6 @@ body {
 }
 
 .mz .navbar-collapse {
-  margin: -2px;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
 }
@@ -101,7 +100,7 @@ body {
 .mz .jumbotron {
     position: relative;
     padding-top: 20px;
-    background: #444 center url('../assets/road13.jpg');
+    background: #444 center url('../assets/mapzen_cover.jpg');
     background-repeat: no-repeat;
     height: 450px;
     margin-bottom: 0px;
