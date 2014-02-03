@@ -58,6 +58,7 @@ body {
 }
 
 .mz .navbar-collapse {
+  margin: -2px;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
 }
