@@ -4,90 +4,44 @@
 	<title>Mapzen - Start where you are</title>
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 	<script src="scripts.js"></script>
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css" />
 	<link rel="stylesheet" href="css/stylesheet.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="mz">
     <div class="jumbotron text-center img-responsive">
-	    <div class="navbar">
-	    	<div class="container">
-	    		<a href="http://www.mapzen.com" class="navbar-brand"></a>
-	    		<!--
-	    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-	    			<span class="icon-bar"></span>
-	    			<span class="icon-bar"></span>
-	    			<span class="icon-bar"></span>
-	    		</button>
-	    		<div class="collapse navbar-collapse navHeaderCollapse">
-	    			<ul class="nav navbar-nav navbar-right">
-	    				<li class="active"><a href="#">Home</a></li>
-	    				<li><a href="#">Blog</a></li>
-	    				<li><a href="#">Contact</a></li>
-	    			</ul>
-	    		</div>
-	    		-->
-	    	</div>
+	    <div class="brand" role="navigation">
+	    	<a href="http://www.mapzen.com"><img src="assets/mapzen_logo.png" alt="Mapzen"></img></a>
 	    </div>
     	<div class="mz-headline">
-    		<h1>Start where you are&#133;</h1>
-    	</div>
-   	</div>
-    <div class="mz-blurb text-center">
-	    <h2>Coming soon.</h2>
-	</div>
-	<!--
-	<div class="container mz-icons">
-		<div class="row">
-			<div class=col-md-6>
-				<h3>Things we are working on right now&#133;</h3>
-				<ul class="media-list">
-				  <li class="media">
-				    <img class="media-object pull-left img-responsive" src="assets/i_search.png" alt="search_icon">
-				    <div class="media-body">
-				      <h5 class="media-heading">Search</h5>
-				      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-				    </div>
-				  </li>
-				  <li class="media">				      
-				  	<img class="media-object pull-left img-responsive" src="assets/i_navigation.png" alt="navigation_icon">
-				    <div class="media-body">
-				      <h5 class="media-heading">Navigation</h5>
-				      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-				    </div>
-				  </li>
-				  <li class="media">
-				      <img class="media-object pull-left img-responsive" src="assets/i_rendering.png" alt="rendering_icon">
-				    <div class="media-body">
-				      <h5 class="media-heading">Rendering</h5>
-				      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-				    </div>
-				  </li>
-				</ul>
-			</div>
-			<div class=col-md-6>
-				<h3>Join us</h3>
-				<p class="mz-email">We're hiring! <a href="mailto:jobs@mapzen.com">Email us</a>, we'd love to hear from you!</p>
-
-				<h3>Follow Mapzen</h3>
-				<a href="https://github.com/mapzen" class="mz-social"><img class="media-object pull-left img-responsive" src="assets/i_github.png" alt="github"></a>
-				<a href="https://twitter.com/mapzen" class="mz-social"><img class="media-object pull-left img-responsive" src="assets/i_twitter.png" alt="twitter"></a>
+    		<h1>Start where you are.</h1>
+    	</div>   	
+		<div class="container mz-container">
+			<hr>
+			<h3>Mapzen is a mobile-focused mapping company built entirely on open software and data. Our approach is to collaborate with developers and companies in the open to build the best maps and services for everyone to use.</h3>
+			<div class="col-xs-12 col-sm-6 blurbs">
+				<h4>Projects</h4>
+				<div class="media-body">
+					Check out our <a href="https://github.com/mapzen" target="_blank">GitHub</a> to see what we are actively working on.
+				</div>
+			</div>		
+			<div class="col-xs-12 col-sm-6 blurbs">
+				<h4>Join us</h4>
+				<div class="media-body">
+					<a href="mailto:jobs@mapzen.com" target="_blank">Drop us a line</a>, if you’d be interested in working in our New York or Bay Area offices!
+						<!--
+						<a href="https://twitter.com/mapzen" class="mz-social"><img class="media-object pull-left img-responsive" src="assets/i_twitter.png" alt="twitter"></a>
+						-->
+				</div>	
 			</div>
 		</div>
 	</div>
-	
 	<div class="mz-footer container text-center">
-		<footer>
-		   <p>&#169; 2014 Mapzen &#149; Terms &#38; Privacy</p>
-		</footer>
+		<p class="no-bottom-margin">&#169; 2014 Mapzen &#149; Terms &#38; Privacy</p>
 	</div>
--->
-
 </body>
 </html>
-
-

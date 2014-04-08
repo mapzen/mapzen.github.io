@@ -3,18 +3,21 @@ img {
   height: auto;
   vertical-align: middle;
 }
+html {
+  height:100%;
+}
 
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
-}
-
-.mz-social img {
-  padding-right: 10px;
+  background: #444 url('../assets/mapzen_cover1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
 }
 
 .mz-headline h1 {
-  color: #fff;
+  color: #d6645c;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 100;
 }
@@ -26,34 +29,48 @@ body {
 }
 
 .mz h3 {
-  padding-bottom: 10px;
-  color: #29b466;
+  color: #6ea0a4;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 135%;
+}
+
+.mz h4 {
+  color: #494949;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
+}
+
+.media-body {
+  color: #494949;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
 }
 
 @media (min-width: 768px) {
   .mz-headline h1 {
     font-size: 75px;
-    position: absolute;
-    position:absolute;
+    position:relative;
     left:0;
     right:0;
-    top: 330px;
+    margin-top: 40%;
   }
   .mz h2 {
     font-size: 28px;
+  }
+  .mz h4 {
+    font-size: 20px;
   }
 }
 
 @media (max-width: 767px) {
   .mz-headline h1 {
     font-size: 54px;
-    position: absolute;
-    position:absolute;
+    position:relative;
     left:0;
     right:0;
-    top: 350px;
+    margin-top: 60%;
   }
   .mz-blurb h2 {
     font-size: 24px;
@@ -61,17 +78,19 @@ body {
     padding: 15px 20px;
     margin-bottom: 20px;
   }
+  .mz h4 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 500px) {
   .mz-headline h1 {
     font-size: 34px;
+    position:relative;
     font-weight: 300;
-    position: absolute;
-    position:absolute;
     left:0;
     right:0;
-    top: 380px;
+    margin-top: 75%;
   }
   .mz-blurb h2{
     font-size: 18px;
@@ -85,20 +104,16 @@ body {
   font-size: 18px;
   }
 }
-.mz .navbar {
-  position: relative;
-  margin-top: 5px;
-  background-color: none;
-  border-radius: 0;
-}
 
-.mz .navbar-brand {
-  float: left;
-  background: url('../assets/logo_white.png') no-repeat left center;
-  border: 0px;
-  margin-top: 10px;
-  height: 34px;
-  width: 140px;
+.mz .brand {
+  width: 120px;
+  height: 112px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
 }
 
 .mz .navbar-collapse {
@@ -120,45 +135,66 @@ body {
 }
 
 .mz .nav .active a {
-  /* color: #80d588; */
   border: 1px solid #fff;
   border-radius: 8px;
 }
 
 .mz .nav a:hover {
   text-decoration: none;
-  /* color: #80d588 ; */
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 8px;
 }
 
-.mz .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px #fff;
-    background-color: #fff;
+.container .blurbs {
+  display: block;
+  position:relative;
+  margin-top: 8%;
   }
 
+hr {
+  border: 0;
+  border-bottom: 1px dashed #6ea0a4;
+}
+
 .mz .jumbotron {
-    position: relative;
-    padding-top: 20px;
-    background: #444 url('../assets/mapzen_cover.jpg');
-    background-repeat: no-repeat;
-    height: 450px;
-    margin: 0 auto;
-    background-size: cover;
+  width: auto;
+  margin-bottom: 0;
+  min-height:100%;
+  background: transparent;
+}
+.mz-container {
+  overflow:auto;
+  padding-bottom:31px;
 }
 
-.mz-email a {
-  color: #80d588;
+.media-body a {
+  color: #d6645c;
 }
-.mz-email a:hover {
-  color: #29b466;
-  text-decoration:none;
+.media-body a:hover {
+  color: #d6645c;
+  text-decoration:underline;
 }
 
- .mz-footer {
-  padding-top: 50px;
- }
+.mz-footer {
+  color: #494949;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 10%;
+  position:relative;
+  margin-top:-31px;
+  height:31px;
+  clear:both;
+}
+p.no-bottom-margin {
+  margin:0px;
+}
+/*Opera Fix*/
+body:before {
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;/
+}
