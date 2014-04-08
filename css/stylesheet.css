@@ -10,8 +10,7 @@ html {
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
-  background: #444 url('../assets/mapzen_cover1.jpg');
-  background-repeat: no-repeat;
+  background: #fff url('../assets/mapzen_cover1.jpg') no-repeat;
   background-size: cover;
   height:100%;
 }
