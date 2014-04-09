@@ -5,7 +5,7 @@ html {
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
-  background: #9ac2c6 url('../assets/mapzen_cover.jpg') no-repeat;
+  background: #9ac2c6 url('../assets/mapzen_cover1.jpg') no-repeat;
   background-size: cover;
   height: 100%;
 }
@@ -60,7 +60,7 @@ body {
 .mz h3 {
   color: #6ea0a4;
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24px;
   line-height: 125%;
   padding-left: 4%;
@@ -115,7 +115,7 @@ a:hover {
     font-size: 54px;
   }
   .mz h3 {
-  font-size: 20px;
+    font-size: 20px;
   }
   .mz h4 {
     font-size: 18px;
@@ -124,8 +124,13 @@ a:hover {
     height: 70%;
   }
   #blurbs {
-  margin-top: 12%;
-}
+    margin-top: 12%;
+  }
+  body {
+    background: #9ac2c6 url('../assets/mapzen_cover2.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -133,11 +138,16 @@ a:hover {
     font-size: 38px;
   }
   .mz h3 {
-  font-size: 18px;
-  margin-top: 5%;
+    font-size: 18px;
+    margin-top: 5%;
   }
   .mz h4 {
     font-size: 16px;
+  }
+  body {
+    background: #9ac2c6 url('../assets/mapzen_cover3.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
   }
 }
 
