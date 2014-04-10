@@ -1,51 +1,49 @@
 html {
-  height:100%;
+  background: #9ac2c6 url('../assets/mapzen_cover4.jpg') no-repeat;
+  background-size: cover;
+  min-height: 100%;
 }
 
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
-  background: #9ac2c6 url('../assets/mapzen_cover1.jpg') no-repeat;
-  background-size: cover;
-  height: 100%;
-}
-
-.mz .jumbotron {
-  width: auto;
-  min-height: 100%;
   background: transparent;
 }
 
+/*.mz .jumbotron {
+  width: auto;
+  min-height: 100%;
+  background: transparent;
+}*/
+
 #wrap {
   min-height: 100%;
+  padding:20px;
 }
 
-#main {
-  overflow: auto;
-  padding-bottom: 31px;
-} 
-
 #header {
-  width: 120px;
-  height: 112px;
-  position: relative;
-  width: 100%;
-  left: 0;
   text-align: center;
   margin: auto;
   margin-top: 5%;
 }
 
+#header img {
+  width: 120px;
+  height: 112px;
+}
+
+#main {
+  overflow: auto;
+} 
+
 #footer {
   position: relative;
-  margin-top: -31px; 
-  height: 31px;
-  clear: both;
+  margin-top: 20%; 
+  padding-bottom: 20px;
 } 
 
 #hr-divider {
-  position: relative;
-  margin-top: 4%;
+  padding:0 4%;
 }
 
 .mz-headline h1 {
@@ -53,7 +51,6 @@ body {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 100;
   font-size: 75px;
-  position: relative;
   margin-top: 15%;
 }
 
@@ -61,8 +58,8 @@ body {
   color: #6ea0a4;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 125%;
+  font-size: 22px;
+  line-height: 130%;
   padding-left: 4%;
   padding-right: 4%;
   position:relative;
@@ -121,15 +118,11 @@ a:hover {
     font-size: 18px;
   }
   #header img {
-    height: 70%;
+    width: 90px;
+    height: 84px;
   }
   #blurbs {
     margin-top: 12%;
-  }
-  body {
-    background: #9ac2c6 url('../assets/mapzen_cover2.jpg') no-repeat;
-    background-size: cover;
-    height: 100%;
   }
 }
 
@@ -143,11 +136,6 @@ a:hover {
   }
   .mz h4 {
     font-size: 16px;
-  }
-  body {
-    background: #9ac2c6 url('../assets/mapzen_cover3.jpg') no-repeat;
-    background-size: cover;
-    height: 100%;
   }
 }
 
