@@ -10,14 +10,7 @@ body {
   background: transparent;
 }
 
-/*.mz .jumbotron {
-  width: auto;
-  min-height: 100%;
-  background: transparent;
-}*/
-
 #wrap {
-  min-height: 100%;
   padding:20px;
 }
 
