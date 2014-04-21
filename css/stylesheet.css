@@ -1,5 +1,5 @@
 html {
-  background: #9ac2c6 url('../assets/mapzen_cover4.jpg') no-repeat;
+  background: #fefbde url('../assets/mapzen_cover4.jpg') no-repeat center center;
   background-size: cover;
   min-height: 100%;
 }
@@ -8,10 +8,7 @@ body {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
   background: transparent;
-}
-
-#wrap {
-  padding:20px;
+  padding-top: 40px;
 }
 
 #header {
@@ -23,6 +20,59 @@ body {
 #header img {
   width: 120px;
   height: 112px;
+}
+
+.navbar-brand img {
+  width: 120px;
+  height: 39px;
+}
+
+.asset img {
+  width: 356px;
+  height: 200px;
+  float: right;
+}
+
+.navbar-default {
+  background-color: rgba(255,255,255,0.8);
+  background-image: none;
+  border: none;
+  border-color: transparent;
+}
+
+.navbar {
+  padding: 0 20px 0 20px;
+}
+
+.navbar-brand {
+  padding: 6px 0px; 
+}
+
+.navbar-toggle {
+  margin-right: 0px;
+  border: none;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #494949;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #d6645c;
+}
+
+.navbar-default .navbar-nav .active a {
+  background: transparent;
+  box-shadow: none;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #d6645c;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+  background: transparent;
+  box-shadow: none;
+  color: #d6645c;
 }
 
 #main {
@@ -60,10 +110,19 @@ body {
 }
 
 .mz h4 {
-  color: #494949;
+  color: #d6645c;
+  font-size: 18px;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 20px;
+}
+
+.mz h5 {
+  color: #494949;
+  font-size: 18px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 0%;
 }
 
 p {
@@ -79,18 +138,36 @@ p {
   margin-top: 5%;
 }
 
+.mz-dev-block {
+  display: block;
+  position: relative;
+  background-color: rgba(255,255,255,0.5);
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.mz-dev-block p {
+  color: #494949;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 4%;
+}
+
 hr {
   border: 0;
   border-bottom: 1px dashed #6ea0a4;
 }
 
 a {
-  color: #d6645c;
+  color: #494949;
+  font-weight: 500;
 }
 
 a:hover {
   color: #d6645c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .mz-footer p {
@@ -98,6 +175,56 @@ a:hover {
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 300;
   font-size: 12px;
+}
+
+.btn-primary {
+  border-color: #0a7f8a;
+  background-color: #1296a2;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  background-image: none;
+}
+
+.btn-primary:hover {
+  border-color: #0a7f8a;
+  background-color: #0a7f8a;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  background-image: none;
+}
+
+.btn-default {
+  border-color: #494949;
+  background-color: #6b6b6b;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  background-image: none;
+}
+
+.btn-default:hover {
+  border-color: #494949;
+  background-color: #494949;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  background-image: none;
+}
+
+#header {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#dev-block {
+  margin: 5%;
+}
+
+#dev-block a {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
@@ -117,6 +244,12 @@ a:hover {
   #blurbs {
     margin-top: 12%;
   }
+  .mz-dev-block {
+    padding: 4%;
+  }
+  .asset img {
+    float: left;
+  }
 }
 
 @media (max-width: 500px) {
@@ -130,6 +263,9 @@ a:hover {
   .mz h4 {
     font-size: 16px;
   }
+  .mz-dev-block {
+    padding: 4%;
+  }
 }
 
 /*Opera Fix*/
@@ -139,4 +275,9 @@ body:before {
   float: left;
   width: 0;
   margin-top: -32767px;
+}
+
+/*OSM Extracts*/
+#extracts ul {
+  list-style: none;
 }
