@@ -14,7 +14,9 @@ body {
 #header {
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 8%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #header img {
@@ -219,7 +221,7 @@ a:hover {
 }
 
 #dev-block {
-  margin: 5%;
+  margin: 0 5%;
 }
 
 #dev-block a {
@@ -277,7 +279,56 @@ body:before {
   margin-top: -32767px;
 }
 
-/*OSM Extracts*/
-#extracts ul {
-  list-style: none;
+/*Metro Extracts*/
+#extracts {
+  margin: 0 5%;
 }
+
+#extracts div {
+  margin-right: -7%;
+}
+
+#extracts li {
+  margin: 5px 0 20px 0;
+  text-align: left;
+}
+
+#extracts a {
+  color: #00859d;
+  padding-right: 7px;
+}
+
+#extracts a:hover {
+  color: #d6645c;
+}
+
+#last_updated_at {
+  color: #d6645c;
+  margin-top: -5px;
+}
+
+span.place_name {
+  font-weight: 100;
+  text-transform: capitalize;
+  display: block;
+  font-size: 32px;
+    color: #494949;
+    line-height: 1.1;
+}
+
+#search_input {
+  margin: 2% 5%; 
+  width:90%;
+  height: 44px;
+}
+/*#search_clear {
+    position: absolute;
+    right: 8%;
+    top: -20%;
+    bottom: 0;
+    height: 16px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}*/
