@@ -111,6 +111,18 @@ body {
   margin-top: 0%;
 }
 
+.mz h2 {
+  color: #6ea0a4;
+  font-size: 42px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 130%;
+  padding-left: 4%;
+  padding-right: 4%;
+  position:relative;
+  margin-top: 0%;
+}
+
 .mz h4 {
   color: #d6645c;
   font-size: 18px;
@@ -281,11 +293,7 @@ body:before {
 
 /*Metro Extracts*/
 #extracts {
-  margin: 0 5%;
-}
-
-li{
-  list-style-type: none;
+  margin: 0 1.5%;
 }
 
 #extracts div {
@@ -313,27 +321,16 @@ li{
 }
 
 span.place_name {
-  font-weight: 100;
+  font-family: 'Arvo', Georgia, 'serif';
+  font-weight: 400;
   text-transform: capitalize;
-  display: block;
   font-size: 32px;
-    color: #494949;
-    line-height: 1.1;
+  color: #494949;
+  line-height: 1.1;
 }
 
 #search_input {
   margin: 2% 5%; 
-  width:90%;
+  width:50%;
   height: 44px;
 }
-/*#search_clear {
-    position: absolute;
-    right: 8%;
-    top: -20%;
-    bottom: 0;
-    height: 16px;
-    margin: auto;
-    font-size: 14px;
-    cursor: pointer;
-    color: #ccc;
-}*/
