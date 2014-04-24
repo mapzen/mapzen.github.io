@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Mapzen - Start where you are.</title>
+		<title>Mapzen - Developers</title>
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
@@ -11,14 +11,12 @@
 		<link rel="stylesheet" href="css/stylesheet.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
 		<!--[if !IE 7]>
 		<style type="text/css">
 			#wrap {display:table;height:100%}
 		</style>
-		<![endif]-->
+	<![endif]-->
 	</head>
 	<body class="mz">
 		<div id="wrap" class="text-center">
@@ -33,13 +31,13 @@
 						    <span class="icon-bar"></span>
 						    <span class="icon-bar"></span>
 						  </button>
-						  <a class="navbar-brand" href="index.html"><img src="assets/mapzen_logo_type_h@2x.png" alt="Mapzen" /></a>
+						  <a class="navbar-brand" href="index.html"><img src="assets/mapzen_logo_type_h@2x.png" alt="Mapzen"></a>
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						  <ul class="nav navbar-nav navbar-right">
-						    <li class="active"><a href="#">Home</a></li>
-						    <li><a href="developer.html">Developers</a></li>
-						    <li><a href="http://mapzen.com/metro-extracts">Metro Extracts</a></li>
+						    <li><a href="index.html">Home</a></li>
+						    <li class="active"><a href="#">Developers</a></li>
+						    <li><a href="http://mapzen.com/metro-extracts">OSM Extracts</a></li>
 						    <li><a href="http://www.twitter.com/mapzen" target="_blank">Twitter</a></li>
 						    <li><a href="http://www.github.com/mapzen" target="_blank">Github</a></li>
 						  </ul>
@@ -47,30 +45,10 @@
 					</div>
 				</nav>
 			</div>
-			<div id="header">
-	    		<a href="http://www.mapzen.com"><img src="assets/mapzen_logo@2x.png" alt="Mapzen"></img></a>
-	    	</div>
-	    	<div id="main">
-		    	<div class="mz-headline">
-		    		<h1>Start where you are.</h1>
-		    	</div>
-		    	<div id="hr-divider">
-		    		<hr>
-		    	</div>
-		    	<div id="mz-blurb">
-		    		<h3>Mapzen is a mobile-focused mapping company built entirely on open software and data. Our approach is to collaborate with developers and companies in the open to build the best maps and services for everyone to use.</h3>
-		    	</div>
-		    	<div id="blurbs">
-		    		<div class="col-xs-12 col-sm-6">
-						<h4>Projects</h4>
-						<p>Check out our <a href="https://github.com/mapzen" target="_blank">GitHub</a> to see what we are actively working on.</p>
-					</div>		
-					<div class="col-xs-12 col-sm-6">
-						<h4>Join us</h4>
-						<p><a href="mailto:jobs@mapzen.com" target="_blank">Drop us a line</a>, if you’d be interested in working in our New York or Bay Area offices!</p>
-		    		</div>
-		    	</div>
-		    </div>
+			<div id="iframe-extracts" style="height:100%; margin-top:20px">
+				<!-- <iframe src="http://www.mapzen.com/metro-extracts" frameborder=0 allowtransparency="true" /> -->
+				<iframe src="file:///Users/E/code/metro-extracts/index.html" style="width:80%; height:100%" frameborder=0 allowtransparency="true" />
+			</div>
 		</div>
 		<div id="footer" class="mz-footer text-center">
 	    	<p>&#169; 2014 Mapzen</p><!-- &#149; Terms &#38; Privacy -->

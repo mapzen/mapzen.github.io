@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Mapzen - Developers</title>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+		<script src="scripts.js"></script>
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="css/stylesheet.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+		<!--[if !IE 7]>
+		<style type="text/css">
+			#wrap {display:table;height:100%}
+		</style>
+	<![endif]-->
+	</head>
+	<body class="mz">
+		<div id="wrap" class="text-center">
+			<div id="navnavnav" role="navigation">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						    <span class="sr-only">Toggle navigation</span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+						  </button>
+						  <a class="navbar-brand" href="index.html"><img src="assets/mapzen_logo_type_h@2x.png" alt="Mapzen"></a>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  <ul class="nav navbar-nav navbar-right">
+						    <li><a href="index.html">Home</a></li>
+						    <li class="active"><a href="#">Developers</a></li>
+						    <li><a href="http://mapzen.com/metro-extracts">Metro Extracts</a></li>
+						    <li><a href="http://www.twitter.com/mapzen" target="_blank">Twitter</a></li>
+						    <li><a href="http://www.github.com/mapzen" target="_blank">Github</a></li>
+						  </ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div id="header">
+	    		<h2>Developers</h2>
+	    		<p>Hide yo kids, hide yo wife! its mapzen!</p>
+	    	</div>
+	    	<div id="main">
+	    		<div id="dev-block">
+			    	<div id="pelias" class="row mz-dev-block">
+			    		<div class="col-md-6 col-sm-4">
+				    		<h5>Pelias</h5>
+				    		<p>Pelias is a set of tools for importing OpenStreetMap data into Elasticsearch, and a simple server to handle queries and autocomplete suggestions.</p>
+				    		<p>
+							  <a role="button" class="btn btn-default" href="http://github.com/mapzen/pelias" target="_blank">View on Github</a>
+							  <a role="button" class="btn btn-primary" href="http://mapzen.com/pelias/" target="_blank">View Demo</a>
+							</p>
+				    	</div>
+				    	<div class="col-md-6 asset">
+				    		<img src="assets/pelias.png" alt="Pelias" class="img-responsive" />
+				    	</div>
+			    	</div>
+			    	<div id="speakerbox" class="row mz-dev-block">
+			    		<div class="col-md-6 col-sm-4">
+				    		<h5>Speakerbox</h5>
+				    		<p>Speakerbox offers simplified Text-to-Speech on Android with automated initialization/shutdown plus the ability to perform text substitution on the fly.</p>
+				    		<p>
+							  <a role="button" class="btn btn-default" href="http://github.com/mapzen/speakerbox" target="_blank">View on Github</a>
+							</p>
+				    	</div>
+				    	<div class="col-md-6 asset">
+				    		<img src="assets/speakerbox.png" alt="Speakerbox" class="img-responsive" />
+				    	</div>
+			    	</div>
+			    	<div id="ontheroad" class="row mz-dev-block">
+			    		<div class="col-md-6 col-sm-4">
+				    		<h5>On the Road</h5>
+				    		<p>On The Road acts as a java client for The Open Source Routing Machine (OSRM) and it handles client side location correction, specifically snapping the client’s location along road.</p>
+				    		<p>
+							  <a role="button" class="btn btn-default" href="http://github.com/mapzen/on-the-road" target="_blank">View on Github</a>
+							</p>
+				    	</div>
+				    	<div class="col-md-6 asset">
+				    		<img src="assets/ontheroad.png" alt="On the Road" class="img-responsive" />
+				    	</div>
+			    	</div>
+			    	<div id="androidapp" class="row mz-dev-block">
+			    		<div class="col-md-6 col-sm-4">
+				    		<h5>Android App</h5>
+				    		<p>A simple mobile mapping application built using the Mapzen SDKs and other open source projects such as OpenScienceMap.</p>
+				    		<p>
+							  <a role="button" class="btn btn-default" href="http://github.com/mapzen/mapzen-android-demo" target="_blank">View on Github</a>
+							</p>
+				    	</div>
+				    	<div class="col-md-6 asset">
+				    		<img src="assets/app.png" alt="Android App" class="img-responsive" />
+				    	</div>
+			    	</div>
+			    	<div id="lost" class="row mz-dev-block">
+			    		<div class="col-md-6 col-sm-4">
+				    		<h5>LOST</h5>
+				    		<p>LOST is a drop-in replacement for the Google Play Services LocationClient that uses the same API to communicate directly with the LocationManger so there is nothing to reconfigure.</p>
+				    		<p>
+							  <a role="button" class="btn btn-default" href="http://github.com/mapzen/LOST" target="_blank">View on Github</a>
+							</p>
+				    	</div>
+				    	<div class="col-md-6 asset">
+				    		<img src="assets/lost.png" alt="LOST" class="img-responsive" />
+				    	</div>
+			    	</div>
+			    	<!-- <div id="routing" class="row mz-dev-block">
+			    		<div class="col-md-6 col-sm-4">
+				    		<h5>Routing</h5>
+				    		<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be?</p>
+				    		<p>
+							  <a role="button" class="btn btn-default" href="http://github.com/mapzen/routing" target="_blank">View on Github</a>
+							</p>
+				    	</div>
+				    	<div class="col-md-6 asset">
+				    		<img src="assets/routing.png" alt="Routing" class="img-responsive" />
+				    	</div>
+			    	</div> -->
+			    </div>
+			</div>
+		</div>
+		<div id="footer" class="mz-footer text-center">
+	    	<p>&#169; 2014 Mapzen</p><!-- &#149; Terms &#38; Privacy -->
+	    </div>
+	</body>
+</html>

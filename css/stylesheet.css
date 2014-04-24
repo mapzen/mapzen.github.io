@@ -33,6 +33,7 @@ body {
   width: 356px;
   height: 200px;
   float: right;
+  vertical-align: middle;
 }
 
 .navbar-default {
@@ -132,9 +133,9 @@ body {
 
 .mz h5 {
   color: #494949;
-  font-size: 18px;
-  font-family: 'Roboto', Helvetica, sans-serif;
-  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Playfair Display', Georgia, 'serif';
+  font-weight: 400;
   text-align: left;
   margin-top: 0%;
 }
@@ -198,6 +199,8 @@ a:hover {
   font-weight: 300;
   color: #fff;
   background-image: none;
+  box-shadow: none;
+  text-shadow: none;
 }
 
 .btn-primary:hover {
@@ -207,6 +210,8 @@ a:hover {
   font-weight: 300;
   color: #fff;
   background-image: none;
+  box-shadow: none;
+  text-shadow: none;
 }
 
 .btn-default {
@@ -216,6 +221,8 @@ a:hover {
   font-weight: 300;
   color: #fff;
   background-image: none;
+  box-shadow: none;
+  text-shadow: none;
 }
 
 .btn-default:hover {
@@ -225,6 +232,8 @@ a:hover {
   font-weight: 300;
   color: #fff;
   background-image: none;
+  box-shadow: none;
+  text-shadow: none;
 }
 
 #header {
@@ -251,6 +260,9 @@ a:hover {
   .mz h4 {
     font-size: 18px;
   }
+  .mz h5 {
+  font-size: 18px;
+}
   #header img {
     width: 90px;
     height: 84px;
@@ -262,9 +274,20 @@ a:hover {
     padding: 4%;
   }
   .asset img {
-    float: left;
+    float: right;
+    display: block;
+    width: 250px;
+    height: 140px;
   }
 }
+
+@media (max-width: 641px) {
+  .asset img {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 
 @media (max-width: 500px) {
   .mz-headline h1 {
@@ -280,6 +303,10 @@ a:hover {
   .mz-dev-block {
     padding: 4%;
   }
+  .asset img {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 /*Opera Fix*/
@@ -289,49 +316,4 @@ body:before {
   float: left;
   width: 0;
   margin-top: -32767px;
-}
-
-/*Metro Extracts*/
-#extracts {
-  margin: 0 1.5%;
-}
-
-#extracts div {
-  margin-right: -7%;
-}
-
-#extracts li {
-  margin: 5px 0 20px 0;
-  text-align: left;
-  list-style-type: none;
-}
-
-#extracts a {
-  color: #00859d;
-  padding-right: 7px;
-}
-
-#extracts a:hover {
-  color: #d6645c;
-}
-
-#last_updated_at {
-  color: #d6645c;
-  margin-top: -5px;
-}
-
-span.place_name {
-  font-family: 'Playfair Display', Georgia, 'serif';
-  font-weight: 400;
-  text-transform: capitalize;
-  display: block;
-  font-size: 32px;
-  color: #494949;
-  line-height: 1.1;
-}
-
-#search_input {
-  margin: 2% 5%; 
-  width:50%;
-  height: 44px;
 }
